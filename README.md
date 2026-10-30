@@ -4,7 +4,7 @@ An interactive Power BI dashboard that analyzes how salary, bonus and
 deductions are distributed across departments, locations, genders and
 designations.
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Dashboard.png)
 
 ## Dataset
 Employee data across 5 departments and 5 locations (14 employees),
@@ -31,9 +31,10 @@ dimension tables.
 Power BI Desktop, Power Query (data cleaning), DAX
 
 ## How to open
-Download `report/emp_dataset.pbix` and open it in Power BI Desktop.
+Download `emp_dataset.pbix` and open it in Power BI Desktop.
 If the data fails to load, go to **Transform data → Data source settings**
-and point each source to the CSV files in the `Data/` folder.
+and point each source to the CSV files in this repository
+(`dept_dataset.csv` and `employee_dataset (2).csv`).
 
 ## Author
 Shazin TM · [LinkedIn](https://www.linkedin.com/in/shazin-tm) · [GitHub](https://github.com/Shazin-tm)
